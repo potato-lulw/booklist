@@ -21,7 +21,7 @@ export default function BookContextProvider  ({children}) {
         )
     }
   return (
-    <BookContext.Provider value={{books, addBook,   removeBook}}>
+    <BookContext.Provider value={{books, addBook, removeBook}}>
         {children}
     </BookContext.Provider>
   )

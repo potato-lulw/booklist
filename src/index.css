@@ -69,8 +69,10 @@ body {
   }
   input[type='submit']{
     margin: 10px auto;
-    background: #eee;
+    background: #3c1f3c;
+    color: #fff;
     border: 0;
     padding: 6px 20px;
     display: block;
+    border-radius: 8px;
   }
