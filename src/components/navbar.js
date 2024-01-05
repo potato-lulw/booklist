@@ -1,14 +1,11 @@
-import React, { useContext, useEffect} from 'react'
+import React, { useContext} from 'react'
 import { BookContext } from '../context/book-context'
 
 
 
 export default function Navbar() {
-    const {books} = useContext(BookContext);
-    useEffect(() => {
-      
-    }, [books])
-      
+  const {books} = useContext(BookContext);
+    
     
   return (
     <div className="navbar">
